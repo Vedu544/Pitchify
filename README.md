@@ -46,5 +46,6 @@ photos:-
 
 ![Screenshot 2024-12-04 081210](https://github.com/user-attachments/assets/26506789-8ecb-4f0d-b9d1-9f9ac05db7c4)
 
-![Screenshot 2024-12-04 081210](https://github.com/user-attachments/assets/7f787719-bea2-4374-afee-cb85e2f74049)
+![Screenshot 2024-12-04 081234](https://github.com/user-attachments/assets/d2f0fc16-9dbc-48bd-95c6-23a39c99970a)
+
 
