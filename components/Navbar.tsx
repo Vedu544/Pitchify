@@ -19,6 +19,17 @@ const Navbar = async () => {
         <div className="flex items-center gap-5">
           {session && session?.user ? (
             <>
+
+              <Link
+                href="/investors"
+                className="font-semibold text-black-100"
+              >
+                <span className="max-sm:hidden">Connect Investors</span>
+                <span className="sm:hidden">Connect</span>
+             
+              </Link>
+
+
               <Link
                 href="/startup/create"
                 className="font-semibold text-black-100"
@@ -48,7 +59,7 @@ const Navbar = async () => {
                     src={session?.user?.image || ""}
                     alt={session?.user?.name || ""}
                   />
-                  <AvatarFallback>UN</AvatarFallback>
+                  <AvatarFallback>YC</AvatarFallback>
                 </Avatar>
               </Link>
             </>

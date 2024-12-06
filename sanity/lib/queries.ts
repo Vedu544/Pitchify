@@ -112,3 +112,29 @@ export const STARTUP_VIEWS_QUERY =
   _id,
   views
 }`);
+
+export const INVESTER_QUERY =
+ defineQuery(`*[_type == "connectInvester"]{
+  _id,
+  name,
+  category,
+  companyowned,
+  companyinvested,
+  bio,
+  image
+  }`)
+
+
+
+export const INVESTER_BY_ID_QUERY=
+defineQuery(`*[_type == "connectInvester" && _id == $id][0]{
+  _id,
+  name,
+  category,
+  companyowned,
+  companyinvested,
+  bio,
+  image,
+  linkedinURL,
+  }`)
+
